@@ -1,0 +1,8 @@
+# Original Data Set that we use in JN - Pandas.
+201908-citibike-tripdata.csv
+
+# Updated Data Set with tripduration converted to Datetime.
+0819_CitiBike_Data_Mod14.csv
+
+# JN
+/.ipynb_checkpoints
