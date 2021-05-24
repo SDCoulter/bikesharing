@@ -24,35 +24,35 @@ Using the 5 created in Deliverable 2 and 2 from the module create the Story and 
 
 ![Average Checkout Times for Users](images/1_checkout_times.png)
 
-**Average Checkout Times for Users**: --missing
+***Challenge Graph*** - **Average Checkout Times for Users**: The average (in this case, mode) length of a bike rental/trip duration is for a 4-6-minute journey. This would imply that in NYC there were an abundance of places to travel to that are nearby to each other - this includes workplaces and housing/apartments. In more spaced-out metropolitan areas, you could expect to see the trip duration increase until it became infeasible to use a bike rather than a car, i.e., more suburban areas. New York City is well known for its dense population and high traffic so short trips on a bike are plentiful.
 
 ![Gender Breakdown](images/2_gender_breakdown.png)
 
-**Gender Breakdown Pie Chart**: --missing
+***Module Graph*** - **Gender Breakdown Pie Chart**: Here we see a pie chart representing the gender breakdown of bike users. Around two thirds of the users are male, a quarter are female, and roughly nine percent are unknown. This shows the CitiBike service is mainly dominated by male users.
 
 ![Checkout Times by Gender](images/3_gender_checkout.png)
 
-**Checkout Times by Gender**: --missing
+***Challenge Graph*** - **Checkout Times by Gender**: Here we see essentially the first two graphs combined. We see the same male dominance in bicycle usage, but also the same peak trip durations for both genders of 4-6-minutes - so, the length of the journeys is not gender dependent. The unknown gender category does not have such a defined peak, with the more popular trip durations anywhere between 8-30 minutes.
 
 ![Customer Subscriber Breakdown](images/4_customer_breakdown.png)
 
-**Customer/Subscriber Breakdown**: --missing
+***Module Graph*** - **Customer/Subscriber Breakdown**: This graph shows the breakdown of user type, where subscriber refers to a user with an annual subscription to the service, and customers are those with 1-3-day passes to the service. Subscribers make up 80+% of CitiBike users, this would imply that most of the users are residents of NYC rather than tourists, as tourists have little need to purchase a year-long membership. Given this knowledge and the fact that most journeys are 4-6-minutes we can begin to see CitiBike is mostly being used for work commutes.
 
 ![Peak Usage Hours (Trip Start Time)](images/5_peak_hours.png)
 
-**Peak Usage Hours (Using Trip Start Time)**: --missing
+***Module Graph*** - **Peak Usage Hours (Using Trip Start Time)**: --missing
 
 ![Trips by Weekday per Hour](images/6_trips_weekday_hour.png)
 
-**Trips by Weekday per Hour**: --missing
+***Challenge Graph*** - **Trips by Weekday per Hour**: --missing
 
 ![Trips by Gender (Weekday per Hour)](images/7_trips_gender_weekday_hour.png)
 
-**Trips by Gender (Weekday per Hour)**: --missing
+***Challenge Graph*** - **Trips by Gender (Weekday per Hour)**: --missing
 
 ![User Type Trips by Gender by Weekday](images/8_trips_gender_customer_weekday.png)
 
-**User Type Trips by Gender by Weekday**: --missing
+***Challenge Graph*** - **User Type Trips by Gender by Weekday**: --missing
 
 ## Challenge - Summary
 
