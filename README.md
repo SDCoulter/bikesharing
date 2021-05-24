@@ -86,7 +86,7 @@ As detailed in the above tweet it appears that New York City faced thunderstorms
 
 This shows that CitiBike needs to pay close attention to the weather in the city when dealing with their fleet of bicycles, and any company wanting to create a CitiBike-like service should be aware of it too. Due to later day weather the service could find its bicycles in the wrong areas for the next rush of service the following morning. They would have to ensure they can still provide the same level of service even with changing weather conditions.
 
-Following on from this idea we could average starting and ending locations to make sure enough bikes are provided at the high-use locations. By having a plan in place for dealing with volume variation we can account for the weather, and any other occurrence that stops enough bicycles being in the right places. Any company wishing to emulate CitiBike would need to be aware of where their bikes need to be and when, in order to provide the best service to the customers.
+Following on from this idea we could compare average starting and ending locations to make sure enough bikes are provided at the high-use locations, and that enough are removed from ending locations to make room for more. By having a plan in place for dealing with volume variation we can account for the weather, and any other occurrence that stops enough bicycles being in the right places. Any company wishing to emulate CitiBike would need to be aware of where their bikes need to be and when, in order to provide the best service to the customers.
 
 ## Context
 
