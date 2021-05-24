@@ -14,7 +14,7 @@ We use a variety of visualizations in this module, including bar charts, pie cha
 
 ## Challenge - Results
 
-![NYC CitiBike Tableau Story Points](images/d0_story_points.png)
+![NYC CitiBike Tableau Story Points](images/0_story_points.png)
 
 These are our city story points, organized by their graph names, they include the 5 challenge charts and 3 picked from the module to tell a story about the NYC CitiBike dataset from August 2019.
 
