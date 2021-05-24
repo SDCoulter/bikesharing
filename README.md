@@ -16,7 +16,7 @@ We use a variety of visualizations in this module, including bar charts, pie cha
 
 ![NYC CitiBike Tableau Story Points](images/0_story_points.png)
 
-These are our city story points, organized by their graph names, they include the 5 challenge charts and 3 picked from the module to tell a story about the NYC CitiBike dataset from August 2019.
+**Story Points**: These are our CitiBike data story points, organized by their graph names, they include the 5 challenge charts and 3 picked from the module to tell a story about the NYC CitiBike dataset from August 2019.
 
 ![Average Checkout Times for Users](images/1_checkout_times.png)
 
@@ -48,13 +48,44 @@ These are our city story points, organized by their graph names, they include th
 
 ![User Type Trips by Gender by Weekday](images/8_trips_gender_customer_weekday.png)
 
-***Challenge Graph*** - **User Type Trips by Gender by Weekday**: We mention above the need to split the heatmap by user type, and for the final chart of the assignment we do just that. The split by user type shows that the subscribers use the service more during weekdays, while the customers use it more on the weekends. This would be tourists and
+***Challenge Graph*** - **User Type Trips by Gender by Weekday**: We mention above the need to split the heatmap by user type, and for the final chart of the assignment we do just that. The split by user type shows that the subscribers use the service more during weekdays, while the customers use it more on the weekends. We notice here that the unknown gender category falls mostly into customers rather than subscribers, this explains the differing behaviour we have seen in the gendered charts so far.
 
 ## Challenge - Summary
 
-Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
-There is a high-level summary of the results and two additional visualizations are suggested for future analysis.
+Following the story points above we are shown that the main users of the CitiBike service are male annual subscribers. However, it does not seem that there are gendered differences in the way the service is used. Both listed genders use the service during the same peak days and hours, likely for the same reasons. The unknown gender category uses the service differently than the average simply because they are more likely to be customers rather than subscribers, which is not the norm for the rest of the users. Customers using a service for a short period of time are less likely to give over personal data like gender when compared to subscribers of the service.
+
+We also can see that as most bicycle usage is by subscribers during rush-hours, that most users are using the bikes to commute to work. As NYC is a densely populated area workplaces and homes (apartments) are highly likely to be near enough to warrant using a bike, but not walk. Later-day usage is much higher in general than any other hours of the day, but we see such a distinct spike during rush hours that we must make the connection between the service and commuting.
+
+To further prove our hypothesis, we can look at **Trips by User Type (Weekday per Hour)** in Tableau, and add it to our story:
+
+![Trips by User Type (Weekday per Hour)](images/9_1_summary_trip_by_type.png)
+
+Here we can clearly see the usage of the service by the two different user types. Customers (1-3-day passes) are using the service mainly on weekends, they are either tourists in the city or residents that are briefly using the service for the same sort of travel. They have no need for an annual subscription and are only interested in using the service for a brief time during their free time. On the other side we have the subscribers who as we expected are mainly using the service during rush-hours on weekdays, for their commutes to-and-from work. They also show usage on the weekends, likely using the service for the same reasons as the customers, but it is not the main purpose of their subscription.
+
+Earlier we mentioned the strange fact that the Wednesday evening rush-hour slot was less intense than the same timeframe on the other weekdays. To investigate why this is we can pull a line chart for the **Rides by Day** and include a **day of the week** filter.
+
+![Rides by Day with Day of the Week Filter](images/9_2_summary_1_rides_by_day.png)
+
+We have also separated the data by user type as well, to see if that was the reason for the low turnout on the Wednesday. From this chart we can see that when subscriber usage decreases it is mirrored by customer increase - this would be the weekdays versus the weekends. We already know that subscriber usage is up during the week for work commutes, but we can also clearly see the difference in usage by customers on the weekends. There is a clear spike in the customer line on Saturday, and to a lesser extent Sunday, showing it is the most popular day for customer bicycle usage.
+
+By focusing on Tuesday, we can see that bicycle usage is steady from week to week:
+
+![Rides by Day - Tuesday](images/9_2_summary_2_tuesday.png)
+
+We can then compare that to comparing each **Wednesday** in August:
+
+![Rides by Day - Wednesday](images/9_2_summary_3_wednesday.png)
+
+The above chart clearly shows a large dip on the first Wednesday, the 7th of August 2019. We can investigate this date that has an almost one-third decrease in customer usage by exploring the date online. We use Google and social media platforms to find out whether there was an event that day that caused road closures, or possible traffic issues, or even an issue with the bikes themselves (CitiBike could have had issues).
+
+While it is impossible to fully state why this dip occurred here, this data analyst would point towards the weather being the main factor in people choosing not to use bikes as they normally would. After viewing Twitter and various weather websites to determine the weather on the 7th, we come across the following tweet:
+
+![Twitter Tweet Containing Thunderstorm Weather Information for 7th August 2019](images/9_2_summary_4_twitter_weather.png)
+
+As detailed in the above tweet it appears that New York City faced thunderstorms and rain on this date, particularly later into the day, explaining the drop-off of bicycle usage. We often must be careful not to attribute everything to the weather in data analysis but given August's normally good weather I think it is safe to say this change caused a large dip in the usage of the CitiBike service.
+
+This shows that CitiBike needs to pay close attention to the weather in the city when dealing with their fleet of bicycles, and any company wanting to create a CitiBike-like service should be aware of it too. Due to later day weather the service could find its bicycles in the wrong areas for the next rush of service the following morning. They would have to ensure they can still provide the same level of service even with changing weather conditions.
 
 ## Context
 
-This is the result of Module 14 of the University of Toronto School of Continuing Studies Data Analysis Bootcamp Course - **Ny CitiBike with Tableau** - Analysing a NY CitiBike dataset with Tableau. Following the guidance of the module we end up pushing this selection of files to GitHub.
+This is the result of Module 14 of the University of Toronto School of Continuing Studies Data Analysis Bootcamp Course - **NY CitiBike with Tableau** - Analysing a NY CitiBike dataset with Tableau. Following the guidance of the module we end up pushing this selection of files to GitHub.
