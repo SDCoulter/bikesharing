@@ -14,13 +14,9 @@ We use a variety of visualizations in this module, including bar charts, pie cha
 
 ## Challenge - Results
 
-Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.
+![NYC CitiBike Tableau Story Points](images/d0_story_points.png)
 
-There are at least seven visualizations for the NYC Citibike analysis.
-There is a description of the results for each visualization.
-
-Using the 5 created in Deliverable 2 and 2 from the module create the Story and then use each point here.
-
+These are our city story points, organized by their graph names, they include the 5 challenge charts and 3 picked from the module to tell a story about the NYC CitiBike dataset from August 2019.
 
 ![Average Checkout Times for Users](images/1_checkout_times.png)
 
@@ -40,19 +36,19 @@ Using the 5 created in Deliverable 2 and 2 from the module create the Story and 
 
 ![Peak Usage Hours (Trip Start Time)](images/5_peak_hours.png)
 
-***Module Graph*** - **Peak Usage Hours (Using Trip Start Time)**: --missing
+***Module Graph*** - **Peak Usage Hours (Using Trip Start Time)**: Following on from our previous hypothesis about CitiBike usage and work commuting we look to this chart that we produced during the module. Quite clearly, we can see that the peak usage times of the service are during so-called rush-hour timeslots: 7-9am and 5-7pm. This trend really solidifies the idea that most users of the service are annual subscribers that use the service for their commute to work.
 
 ![Trips by Weekday per Hour](images/6_trips_weekday_hour.png)
 
-***Challenge Graph*** - **Trips by Weekday per Hour**: --missing
+***Challenge Graph*** - **Trips by Weekday per Hour**: Here we look at a heatmap style chart that separates the bike usage down by hour of the day, and by day of the week. The darker tones represent the higher usage, and we can see more proof that there is peak usage during rush-hour times on the weekdays, but more spread-out usage on the weekends. We would need to view this data by user type to see how if each type of user is following our hypothesized pattern. We also notice that Wednesday evening rush-hour is not as intense as the other weekdays *(more on this later)*.
 
 ![Trips by Gender (Weekday per Hour)](images/7_trips_gender_weekday_hour.png)
 
-***Challenge Graph*** - **Trips by Gender (Weekday per Hour)**: --missing
+***Challenge Graph*** - **Trips by Gender (Weekday per Hour)**: We dissect the heatmap further, first by looking at the data split by gender. We notice, like in the first few charts, that the gender makeup follows the combined data - there is no gender difference in the most popular usage times (rush hours and spread out on weekends). One interesting thing to note is that the unknown gender category does not seem to focus as heavily on the weekday rush-hours, but rather on the spread-out weekend usage. This shows that the majority of unknown-gender users are brief customers (1–3-day passes). This follows from the idea that users would be more comfortable handing over personal data about themselves (like gender) if they are subscribing for a year to a service.
 
 ![User Type Trips by Gender by Weekday](images/8_trips_gender_customer_weekday.png)
 
-***Challenge Graph*** - **User Type Trips by Gender by Weekday**: --missing
+***Challenge Graph*** - **User Type Trips by Gender by Weekday**: We mention above the need to split the heatmap by user type, and for the final chart of the assignment we do just that. The split by user type shows that the subscribers use the service more during weekdays, while the customers use it more on the weekends. This would be tourists and
 
 ## Challenge - Summary
 
